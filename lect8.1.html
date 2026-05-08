@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(72, 66, 60);
+}
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 2px solid black;
+            height: 60px;
+            background-color: lightgray;
+        }
+        #content{
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+        }
+        .con{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        button{
+            padding: 8px 16px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }       
+</style>
+</head>
+<body>
+    <nav>
+        <div id="logo">MyWebsite</div>
+        <div id="content">
+            <a href="#" class="con">Home</a>
+            <a href="#" class="con">About</a>
+            <a href="#" class="con">Services</a>
+            <a href="#" class="con">Contact</a>
+        </div>
+        <button>Sign Up</button>
+    </nav>
+</body>
+</html>
+
